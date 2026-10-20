@@ -20,5 +20,5 @@ Click the links below to open a notebook directly from this GitHub repository in
 
 [**Exercise 5: Molecular Dynamics Simulation Analysis**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_5_MD_simulation_analysis.ipynb)
 
-[**Exercise 6: QSAR and NLP Based Information Extraction**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_6_qsar_nlp_search.ipynb)
+[**Exercise 6: QSAR and NLP Based Information Extraction**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_6_pharmacophore_qsar_nlp.ipynb)
 
