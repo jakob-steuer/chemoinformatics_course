@@ -40,6 +40,20 @@ only, waters and all heteroatoms removed, alternate locations stripped keeping a
 `*_gefitinib_crystal.pdb` is the crystallographic pose — the **answer key** for the redocking
 control, not an input. `CHECKSUMS.txt` covers every file.
 
+## `boltz_example/`
+
+A Boltz-2 cofolding prediction of the same complex — gefitinib with wild-type EGFR — so the
+four-method comparison works even if you did not run the cofolding notebook. The notebook picks
+this up automatically when `BOLTZ_RESULTS` is unset.
+
+Only the three files the analysis actually reads, trimmed from a 6.6 MB run to 218 kB: the
+predicted structure, the affinity prediction and the confidence scores.
+
+It is worth knowing what it gives: a ligand **0.66 Å** from the crystal pose, with the predicted
+backbone itself 0.50 Å out — better placed than either docking engine managed. And a predicted
+pIC50 of **6.83** against a measured 7.89, wrong by a factor of eleven. The method that is best at
+the picture is worst at the number.
+
 ## Settings used
 
 | | AutoDock Vina | Attracting Cavities |
