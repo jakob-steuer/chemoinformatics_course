@@ -24,4 +24,10 @@ Click the links below to open a notebook directly from this GitHub repository in
 
 [**Exercise 7: QSAR**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_7_qsar.ipynb)
 
-[**Exercise 8: Append_-_NLP Based Information Extraction**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_8_appendix_nlp.ipynb.ipynb)
+[**Exercise 8: Appendix — NLP Based Information Extraction**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_8_appendix_nlp.ipynb)
+
+[**Exercise 9: Docking**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_9_docking_analysis.ipynb)
+
+Exercise 9 reads the results of your own SwissDock jobs. If they are not back in time it falls
+back automatically to the worked EGFR set in [`docking_example/`](docking_example/), so the
+notebook runs either way.
