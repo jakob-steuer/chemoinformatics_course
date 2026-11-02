@@ -28,6 +28,13 @@ Click the links below to open a notebook directly from this GitHub repository in
 
 [**Exercise 9: Docking**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_9_docking_analysis.ipynb)
 
+[**Exercise 9b: Cofolding (optional)**](https://colab.research.google.com/github/jakob-steuer/chemoinformatics_course/blob/main/chemoinformatics_9b_cofolding.ipynb)
+
 Exercise 9 reads the results of your own SwissDock jobs. If they are not back in time it falls
 back automatically to the worked EGFR set in [`docking_example/`](docking_example/), so the
 notebook runs either way.
+
+Exercise 9b predicts the same complex from sequence alone, with no structure and no search box,
+and packages the result for exercise 9 to read. It needs a **T4 GPU** runtime
+(Runtime → Change runtime type) and takes about ten minutes. It is entirely optional — exercise 9
+uses a prepared cofolding example if you skip it.
