@@ -87,7 +87,10 @@ pose to the crystal pose says whether the method reproduces a known answer. The 
 - **The two identical AC runs disagree** — and the pose count changes threefold — while the ring
   system lands in the same place to 0.01 Å. The scaffold position is what the method determines
   reproducibly; a single whole-molecule RMSD is softer than it looks.
-- AC passes the 2 Å test on one structure and fails on the other, same settings, same drug.
+- **AC passes the 2 Å test on one structure and fails on the other** — same settings, same drug —
+  and it is the *ranking* that flips, not the search. In 4WKQ the closest pose is 0.86 Å, buried at
+  rank 15; in 4I22 the first-ranked pose is already at 1.45 Å. The pass/fail verdict therefore
+  turns on the one quantity the repeat runs above show to be unreproducible.
 
 ### The resistance result
 
