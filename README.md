@@ -39,5 +39,6 @@ and packages the result for exercise 9 to read. It needs a **T4 GPU** runtime
 (Runtime → Change runtime type) and takes about ten minutes. It is entirely optional — exercise 9
 uses a prepared cofolding example if you skip it.
 
-The prediction is a tight fit in a T4's memory. If it reports that it ran out of memory, tick
-`LOW_MEMORY` in that cell and run it again.
+The prediction is a tight fit in a T4's memory, so the notebook's `LOW_MEMORY` setting is on by
+default. If it still reports that it ran out of memory, a T4 is not enough for that run — use a
+larger GPU runtime if you have one, or just skip ahead, since exercise 9 has the result prepared.
